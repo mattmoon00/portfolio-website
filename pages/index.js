@@ -3,11 +3,11 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { CgDarkMode } from "react-icons/cg";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
-import matt from "/Users/mattmoon/Desktop/portfolio-site/public/IMG_3109.JPG";
-import pokemonProject from "/Users/mattmoon/Desktop/portfolio-site/public/Screenshot 2022-12-21 at 5.30.35 PM.png";
-import img1 from "/Users/mattmoon/Desktop/portfolio-site/public/Screenshot 2022-12-21 at 5.32.07 PM.png";
-import img2 from "/Users/mattmoon/Desktop/portfolio-site/public/Screenshot 2022-12-21 at 5.32.33 PM.png";
-import img3 from "/Users/mattmoon/Desktop/portfolio-site/public/Screenshot 2022-12-21 at 5.32.46 PM.png";
+import matt from "../public/myphoto.png";
+import pokemonProject from "../public/Screenshot 2022-12-21 at 5.30.35 PM.png";
+import img1 from "../public/Screenshot 2022-12-21 at 5.32.07 PM.png";
+import img2 from "../public/Screenshot 2022-12-21 at 5.32.33 PM.png";
+import img3 from "../public/Screenshot 2022-12-21 at 5.32.46 PM.png";
 import {
   DiJsBadge,
   DiHtml5,
@@ -18,8 +18,8 @@ import {
   DiSwift,
 } from "react-icons/di";
 import { useState } from "react";
-import devMtnCert from "/Users/mattmoon/Desktop/portfolio-site/public/Devmountain certificate.jpg";
-import uvuLogo from "/Users/mattmoon/Desktop/portfolio-site/public/utah-valley-university.svg";
+import devMtnCert from "../public/Devmountain certificate.jpg";
+import uvuLogo from "../public/utah-valley-university.svg";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -59,8 +59,9 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 dark:text-white">Software Engineer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
-              Former BDR who moved into software development. Graduated from
-              Devmountain in 2022 with a specialization in web development.
+              Former BDR, now Account Executive, getting my Computer Science
+              degree from Utah Valley University. Graduated from Devmountain in
+              2022 with a specialization in web development.
             </p>
           </div>
 
@@ -80,12 +81,13 @@ export default function Home() {
               About Me
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 flex justify-center p-40 text-center dark:text-white">
-              I got started in sales, but after a few years, I found that while
-              I was very successful, the work wasn't fulfilling for me in my
-              life. I attended Devmountain in 2022 and quickly learned that I
-              loved programming. Along with being a developer, I am a dad, a
-              linguist and a sports nerd. I love BYU football and the Utah Jazz,
-              and will go golfing with you any time you ask.
+              Experienced in selling SaaS, having grown from a Sales Development
+              Representative to Account Executive. I attained an average of 120%
+              to quota and continue to increase that number. I attended
+              Devmountain in 2022 and quickly learned that I loved programming.
+              Along with being a developer, I am a dad, a linguist and a sports
+              nerd. I love BYU football and the Utah Jazz, and will go golfing
+              with you any time you ask.
             </p>
           </div>
           <div>
@@ -121,8 +123,9 @@ export default function Home() {
             <Image src={devMtnCert}></Image>
           </div>
           <p className="text-md pt-9 flex justify-center dark:text-white">
-            Currently attending Utah Valley University, in my sophomore year of
-            the Computer Science program.
+            Currently attending Utah Valley University, working on my Computer
+            Science degree. I have a 3.74 GPA and am constantly working at
+            further developing my skills.
           </p>
           <div className="flex justify-center p-12">
             <Image src={uvuLogo} width={500} height={250}></Image>
