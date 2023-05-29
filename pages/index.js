@@ -3,19 +3,11 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { CgDarkMode } from "react-icons/cg";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
-// <<<<<<< HEAD
 import matt from "../public/myphoto.png";
 import pokemonProject from "../public/Screenshot 2022-12-21 at 5.30.35 PM.png";
 import img1 from "../public/Screenshot 2022-12-21 at 5.32.07 PM.png";
 import img2 from "../public/Screenshot 2022-12-21 at 5.32.33 PM.png";
 import img3 from "../public/Screenshot 2022-12-21 at 5.32.46 PM.png";
-// =======
-// import matt from "public/myphoto.png";
-// import pokemonProject from "public/Screenshot 2022-12-21 at 5.30.35 PM.png";
-// import img1 from "public/Screenshot 2022-12-21 at 5.32.07 PM.png";
-// import img2 from "public/Screenshot 2022-12-21 at 5.32.33 PM.png";
-// import img3 from "public/Screenshot 2022-12-21 at 5.32.46 PM.png";
-// >>>>>>> 0aacb9f1ffd66466c00d56a5e653ded826d6f693
 import {
   DiJsBadge,
   DiHtml5,
@@ -26,13 +18,8 @@ import {
   DiSwift,
 } from "react-icons/di";
 import { useState } from "react";
-// <<<<<<< HEAD
 import devMtnCert from "../public/Devmountain certificate.jpg";
 import uvuLogo from "../public/utah-valley-university.svg";
-// =======
-// import devMtnCert from "public/Devmountain certificate.jpg";
-// import uvuLogo from "public/utah-valley-university.svg";
-// >>>>>>> 0aacb9f1ffd66466c00d56a5e653ded826d6f693
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -136,14 +123,9 @@ export default function Home() {
             <Image src={devMtnCert}></Image>
           </div>
           <p className="text-md pt-9 flex justify-center dark:text-white">
-            {/* <<<<<<< HEAD */}
             Currently attending Utah Valley University, working on my Computer
             Science degree. I have a 3.74 GPA and am constantly working at
             further developing my skills.
-            {/* ======= */}
-            {/* Currently attending Utah Valley University, in my sophomore year of
-            the Computer Science program.
->>>>>>> 0aacb9f1ffd66466c00d56a5e653ded826d6f693 */}
           </p>
           <div className="flex justify-center p-12">
             <Image src={uvuLogo} width={500} height={250}></Image>
